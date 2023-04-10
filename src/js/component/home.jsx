@@ -33,7 +33,7 @@ const Home = () => {
 		<div className="container">
 			<h1 className="text-center display-1 text-red">todos</h1>
 			<div className="mx-auto row bg-light">
-				<input className="border border-rounded border-secondary-subtle pt-2 pb-2" type="text" onChange={e => setNewTask(e.target.value)} placeholder= "Insert your next task" value={newTask} 
+				<input className="border border-rounded border-secondary-subtle pt-2 pb-2 input-css" type="text" onChange={e => setNewTask(e.target.value)} placeholder= "Insert your next task" value={newTask} 
 				onKeyUp={e => e.key === "Enter" && handleSubmit(e)} />
 				
 				<div className="col-sm-12 col-md-12 col-lg-12 fs-4 ps-4 border border-secondary-subtle">

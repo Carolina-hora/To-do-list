@@ -10,12 +10,25 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+/* this one is not working*/
+.input-css:active {
+    border-color: rgba(255, 0, 0, 0.384);
+    border-radius: none;
+
+}
 .text-red {
     color: rgba(255, 0, 0, 0.384);
 }
 .task-item {
     display: flex;
     align-items: center;
+    border-bottom: 1px solid rgba(255, 0, 0, 0.384);
+    
+}
+
+.task-item:last-child {
+    border-bottom: none;
 }
 
 .task-item i {
