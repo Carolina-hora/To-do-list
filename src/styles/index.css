@@ -10,3 +10,20 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.text-red {
+    color: rgba(255, 0, 0, 0.384);
+}
+.task-item {
+    display: flex;
+    align-items: center;
+}
+
+.task-item i {
+    display: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.task-item:hover i {
+    display: inline-block;
+}
